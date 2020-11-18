@@ -35,7 +35,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 |----------|----------|--------------------|-------------------|-----------------|
 | Jump Box | Gateway  | 10.0.0.5           |13.75.173.216      | Linux           |
 | Web-1    | Server   | 10.0.0.6           | N/A               | Linux           |
-| Web-2    | Server   | 10.0.0.6           | N/A               | Linux           |
+| Web-2    | Server   | 10.0.0.7           | N/A               | Linux           |
 | ELK      | Server   | 10.1.0.4           | 52.253.90.165     | Linux           |
 
 ### Access Policies

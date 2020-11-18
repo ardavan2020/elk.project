@@ -34,9 +34,9 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.5   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Web - 1  | Gateway  | 10.0.0.6   | Linux            |
+| TODO     | Gateway  | 10.0.0.6   | Linux            |
+| TODO     | Gateway  | 10.1.0.4   | Linux            |
 
 ### Access Policies
 
@@ -53,9 +53,9 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes/No              | 10.0.0.5             |
-| Web - 1  |                     | 10.0.0.6             |
-| Web - 2  |                     | 10.5.5.6             |
-| ELK      |                     | 10.1.0.4             |
+|          |                     | 10.0.0.6             |
+|          |                     | 10.5.5.6             |
+|          |                     | 10.1.0.4             |
 
 ### Elk Configuration
 

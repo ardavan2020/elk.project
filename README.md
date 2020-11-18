@@ -53,8 +53,8 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | No                  | 10.0.0.5             |
-| Web-1    |                     | 10.0.0.6             |
-| Web-2    |                     | 10.5.5.6             |
+| Web-1    | Yes                 | 10.0.0.6             |
+| Web-2    | Yes                 | 10.5.5.6             |
 |          |                     | 10.1.0.4             |
 
 ### Elk Configuration

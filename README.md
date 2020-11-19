@@ -34,14 +34,15 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
   - Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address | Operating System |
-|----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+|     Name      |    Function    | IP Address - Private | IP Address - Public | Operating System |
+|---------------|----------------|----------------------|---------------------|------------------|
+| Jump Box      | Gateway        | 10.0.0.5             | 13.75.173.216       | Linux            |
+| Web-1         | Web server     | 10.0.0.6             | NIL                 | Linux            |
+| Web-2         | Web server     | 10.0.0.7             | NIL                 | Linux            |
+| ELK           | ELK server     | 10.1.0.4             | 52.253.90.165       | Linux            |
+| Load balancer | Load balancer  | NIL                  | 52.147.10.245       | Linux            |
+| Workstation   | Access control | NIL                  | External            | Linux            |
 
 ### Access Policies
 

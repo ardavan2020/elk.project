@@ -31,12 +31,21 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
+<<<<<<< HEAD
 |   Name   | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
 | Jump Box | Gateway  | 10.0.0.5   | Linux            |
 | Web-1    | Gateway  | 10.0.0.6   | Linux            |
 | Web-2    | Gateway  | 10.0.0.7   | Linux            |
 | ELK      | Gateway  | 10.1.0.4   | Linux            |
+=======
+|   Name   | Function | Private IP Address | Public IP Address |Operating System |
+|----------|----------|--------------------|-------------------|-----------------|
+| Jump Box | Gateway  | 10.0.0.5           |13.75.173.216      | Linux           |
+| Web-1    | Server   | 10.0.0.6           | N/A               | Linux           |
+| Web-2    | Server   | 10.0.0.7           | N/A               | Linux           |
+| ELK      | Server   | 10.1.0.4           | 52.253.90.165     | Linux           |
+>>>>>>> 9a95704dc142fd2809959f659e7e244812e09aca
 
 ### Access Policies
 
@@ -52,9 +61,16 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
+<<<<<<< HEAD
 | Jump Box | No                  | 10.0.0.5             |
 |          |                     |                      |
 |          |                     |                      |
+=======
+| Jump Box | Yes                 | 13.75.173.216        |
+| Web-1    | No                  | N/A                  |
+| Web-2    | No                  | N/A                  |
+| ELK      | Yes                 | 52.253.90.165        |
+>>>>>>> 9a95704dc142fd2809959f659e7e244812e09aca
 
 ### Elk Configuration
 
@@ -63,8 +79,10 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Update packages
+- Install Docker
+- Download image (From dockerhub).
+- Run docker
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 

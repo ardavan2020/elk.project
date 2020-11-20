@@ -63,7 +63,7 @@ A summary of the access policies in place can be found in the table below.
 | Web-1         | No                  |    N/A               |
 | Web-2         | No                  |    N/A               |
 | ELK Server    | YES                 |    52.253.90.165     | 
-| Load balancer | YES                 |    52.147.10.245     |
+| Load balancer | YES                 |          |
 
 ### Elk Configuration
 

@@ -23,15 +23,15 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly avaiable, in addition to restricting traffic to the network.
 - What aspect of security do load balancers protect?
-  - Answer: Avaiability, Web traffic, Web security
+  - _Answer: Avaiability, Web traffic, Web security_
 - What is the advantage of a jump box?
-  - Answer: Automation, Security, Network Segmentation, Access Control
+  - _Answer: Automation, Security, Network Segmentation, Access Control_
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 - What does Filebeat watch for?
-  - Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.  
+  - _Filebeat monitors the log files or locations that you specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing._  
 - What does Metricbeat record?
-  - Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
+  - _Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash._
 
 The configuration details of each machine may be found below.
 

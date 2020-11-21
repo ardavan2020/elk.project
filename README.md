@@ -42,7 +42,6 @@ The configuration details of each machine may be found below.
 | Web-2         | Web server     | 10.0.0.7             | NIL                 | Linux            |
 | ELK           | ELK server     | 10.1.0.4             | 52.253.90.165       | Linux            |
 | Load balancer | Load balancer  | NIL                  | 52.147.10.245       | Linux            |
-| Load balancer | Load balancer  | NIL                  | 52.147.10.245       | Linux            |
 | Workstation   | Access control | NIL                  | External            | Linux            |
 
 ### Access Policies

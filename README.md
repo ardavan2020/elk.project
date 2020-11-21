@@ -72,8 +72,8 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
   - Answer: Ansible lets us quickly and easily implement layers of apps. No need to write custom code to automate our systems; We list the tasks required to be done by
     writing a playbook, and Ansible will figure out how to get our systems to the state we want them to be in. 
 
-The playbook implements the following tasks:
-- _Install_ 
+**The playbook implements the following tasks:**
+- _Install:_ 
   - _docker.io_
   - _Install python3-pip_
   - _Install Docker module_

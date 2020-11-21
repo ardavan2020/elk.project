@@ -82,7 +82,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
   - _value: '262144'_
   - _state: present_
   - _reload: yes_
-- **_download and launch a docker elk containe with following ports:_** 
+- **_download and launch a docker elk containe with following published ports:_** 
   - _5601:5601_
   - _9200:9200_
   - _5044:5044_

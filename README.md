@@ -103,7 +103,7 @@ This ELK server is configured to monitor the following machines:
 
 We have installed the following Beats on these machines:
 - _ELK Server, Web 1 and Web 2_
-- _FileBeat and MetricBeat_
+- _FileBeat_
 
 These Beats allow us to collect the following information from each machine:
 - _Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat **_monitors the log files or locations_** that you
@@ -119,8 +119,10 @@ SSH into the control node and follow the steps below:
 
 **_Answer the following questions to fill in the blanks:_**
 - _Which file is the playbook? Where do you copy it?_
-   - _Copy the_ **_'/etc/ansible/files/filebeat-config.yml'_** file to **_'/etc/filebeat/filebeat-playbook.yml'_**
+   - _filbeat-playbook.yml file is the playbook_
+   - _Copy to_ **_'/etc/ansible/roles'_** 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+   - _/etc/ansible/hosts file (IP of the Virtual Machines)._
 - _Which URL do you navigate to in order to check that the ELK server is running?
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._

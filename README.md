@@ -129,5 +129,5 @@ SSH into the control node and follow the steps below:
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
   - _To download: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.1-amd64.deb_
-  - _To edit: nano filebeat-config.yml_
+  - _To edit: nano_
   - _To run: ansible-playbook filebeat-playbook.yml_  

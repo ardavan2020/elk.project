@@ -10,7 +10,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - [pentest.yml](Playbook/pentest.yml)
 - [hosts.yml](Playbook/hosts.yml)
 - [filebeat-install.yml](Playbook/filebeat-install.yml)
-- [hosts.install-elk.ymlyml](Playbook/install-elk.yml)
+- [install-elk.yml](Playbook/install-elk.yml)
+- [hosts.yml](Playbook/hosts.yml)
 
 This document contains the following details:
 - Description of the Topology

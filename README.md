@@ -123,7 +123,7 @@ SSH into the control node and follow the steps below:
    - _Copy to_ **_'/etc/ansible/roles'._** 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
    - _/etc/ansible/hosts file (IP of the Virtual Machines)._
-   - _In the_ **_'hosts'_** _file we define two groups. One as webservers which has the IPs of the VMs to install Filebeat. Another group as ELK Server to install ELK.
+   - _In the_ **_'hosts'_** _file we define two groups. One as webservers which has the IPs of the VMs to install Filebeat. Another group as ELK Server to install ELK._
 - _Which URL do you navigate to in order to check that the ELK server is running?
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._

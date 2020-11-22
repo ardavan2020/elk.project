@@ -105,9 +105,8 @@ We have installed the following Beats on these machines:
 - _FileBeat and MetricBeat_
 
 These Beats allow us to collect the following information from each machine:
-- _Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat monitors the log files or locations that you
-   specify, collects log events, and forwards them either to Elasticsearch or Logstash for indexing_ 
-_TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- _Filebeat is a lightweight shipper for forwarding and centralizing log data. Installed as an agent on your servers, Filebeat **_monitors the log files or locations_** that you
+   specify, **_collects log events_**, and **_forwards them either to Elasticsearch or Logstash_** for indexing_ 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 

@@ -11,6 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 - [hosts](Playbook/hosts.yml)
 - [filebeat-install](Playbook/filebeat-install.yml)
 - [filebeat-playbook](Playbook/filebeat-playbook.yml)
+- [filebeat-config](Playbook/filebeat-config.yml)
 - [install-elk.yml](Playbook/install-elk.yml)
 - [hosts.yml](Playbook/hosts.yml)
 
